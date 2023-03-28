@@ -1,0 +1,20 @@
+
+.timeMark {
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: #999999;
+    margin-left: 3px;
+
+}
+@media all and (min-width: 1024px) {
+    .timeMark {
+      display: inline-flex;
+      flex-direction: row;
+      order: 0;
+    }
+    .timeMark::before {
+        content: 'Опубликовано ';
+        white-space: pre;
+    }
+  }

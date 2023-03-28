@@ -1,0 +1,129 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+@font-face {
+  font-family: 'Muller';
+  src: url('fonts/MullerBold.woff2');
+  src: local('Muller Bold'), local('MullerBold'),
+    url('fonts/MullerBold.woff2')
+    url('fonts/MullerBold.woff')
+}
+@font-face {
+  font-family: 'Muller';
+  src: url('fonts/MullerLight.woff2');
+  src: local('Muller Light'), local('MullerLight'),
+    url('fonts/MullerLight.woff2')
+    url('fonts/MullerBold.woff')
+}
+@font-face {
+  font-family: 'Muller';
+  src: url('fonts/MullerMedium.woff2');
+  src: local('Muller Medium'), local('MullerMedium'),
+    url('fonts/MullerMedium.woff2')
+    url('fonts/MullerBold.woff')
+}
+@font-face {
+  font-family: 'Muller';
+  src: url('fonts/MullerRegular.woff');
+  src: local('Muller Regular'), local('MullerRegular'),
+    url('fonts/MullerRegular.woff2')
+    url('fonts/MullerBold.woff')
+}
+body {
+  font-family: 'Muller', sans-serif;
+  max-width: 1920px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+body {
+  min-width: 1200px;
+}
+.list-reset{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flex{
+  display: flex;
+}
+.container {
+  margin: 30px 375px;
+}
+/*  */
+
+.header-top{
+  align-items: center;
+}
+.header-top-number {
+  padding-left: 40px;
+}
+.header-top-account {
+  margin-left: auto;
+}
+
+.header-nav {
+  flex-direction: column;
+}
+.header-bot-items{
+  padding: 45px 0 45px 45px;
+
+}
+.header-btns{
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+}
+.special-offers-offers-left-card-title,
+.special-offers-offers-right-title{
+  font-weight: bold;
+}
+.special-offers-offers-right{
+  margin: 0 auto;
+}
+.services-list {
+  flex-wrap: wrap;
+}
+.services-list-card{
+  width: 573px;
+}
+.advantages-list{
+  flex-wrap: wrap;
+}
+.advantages-list-card{
+  display: inherit;
+  width: 275px;
+  /* height: 275px; */
+}
+.advantages-list-card:not(:nth-child(4n)) {
+  padding-right: 23px;
+}
+.placement-list{
+  flex-wrap: wrap;
+}
+.placement-list-card{
+  width: 374px;
+  height: 440px;
+}
+.placement-list-card:not(:nth-child(3n)) {
+  padding-right: 23px;
+}
+.placement-list-last-card {
+  background-image: url('decorative-img/placement-9.jpg');
+}
+.placement-list-last-card-row-1{
+  color: aliceblue;
+  margin-top: 373px;
+  margin-left: 54px;
+  margin-bottom: 27px;
+  font-weight: 500;
+}

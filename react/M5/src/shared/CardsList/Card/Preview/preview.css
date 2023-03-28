@@ -1,0 +1,19 @@
+.previewDiv{
+    margin-top: 13px;
+    padding: 89px 0;
+    width: 100%;
+    background-image: url('https://d3octkd2uqmyim.cloudfront.net/media/bi/27312/watercolor-forest-bridal-shower-thank-you-cards-up-2x.jpg?q=1633969938');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media all and (min-width: 1024px) {
+    .previewDiv {
+        margin-top: 0;
+        position: relative;
+        display: inline-flex;
+        order: 0;
+        width: 190px;
+        padding: 53px;
+        border-radius: 3px;
+    }
+}

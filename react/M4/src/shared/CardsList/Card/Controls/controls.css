@@ -1,0 +1,62 @@
+.controlsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    border-radius: 0px 0px 7px 7px;
+    padding: 20px 0 20px 20px;
+
+}
+.svgRotate {
+    transform: rotate(180deg)
+}
+.rateNumber {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 4px;
+    text-align: center;
+
+    color: #C4C4C4;
+}
+.comment {
+    display: flex;
+}
+.commentNumber {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 4px;
+    text-align: center;
+    margin-left: 6px;
+    color: #C4C4C4; 
+}
+.links {
+
+}
+.link {
+    margin-right: 20px;
+}
+
+@media all and (min-width: 1024px) {
+    .controlsDiv {
+        margin-right: 40px;
+        display: block;
+        order: 3;
+        flex: 0 0 ;
+    }
+    .links {
+        display: none;
+    }
+    .comment {
+        display: none;
+    }
+    .rateNumber {
+        margin: 0;
+        color: #333333;
+    }
+    .svgRotateHover:hover{
+        fill: #CC3361;
+    }
+    .svgUpHover:hover {
+        fill: #A4CC33;
+    }
+  }

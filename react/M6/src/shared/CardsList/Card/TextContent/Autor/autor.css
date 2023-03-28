@@ -1,0 +1,40 @@
+.autor {
+    display: inline-flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 22px;
+}
+.imgDiv {
+    background-image: url('https://lh3.googleusercontent.com/TNijZW_Gp9MZ3eqXkve0YWDEiHV-a2IpSpD6IJzrV3Y76GJcLEyzX2regTLemXzBHbHVqkKuxnnWDT34Cp4sNh-Y=w128-h128-e365-rj-sc0x00ffffff');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+}
+.link {
+    color: #CC6633;
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 7px;
+}
+@media all and (min-width: 1024px) {
+    .autor {
+        padding-left: 0;
+        margin-top: 8px;
+        display: inline-flex;
+        flex-direction: row;
+        order: 1;
+    }
+    .imgDiv {
+        order: 3;
+        margin: 0 0 0 6px;
+    }
+    .link {
+        order: 4;
+        margin: 0 0 0 7px;
+    }
+    .link:hover {
+        border-bottom: #CC6633 1px solid;
+    }
+  }

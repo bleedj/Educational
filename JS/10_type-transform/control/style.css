@@ -1,0 +1,145 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+ul[class],
+ol[class] {
+  list-style: none;
+}
+body {
+  background: url('img/backg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title{
+  display: inline;
+  padding: 2px;
+  margin-top: 25px;
+  margin-left: 5%;
+  color: black;
+  margin-bottom: 1%;
+  border-bottom: 1px black solid;
+}
+.container {
+  padding-top: 30px;
+  max-width: 1170px;
+  margin: 0 auto;
+  background-color: rgba(255,255,255,0.9);
+  border: 1px black solid;
+  min-width: 1000px;
+}
+.titlesRow {
+  cursor: pointer;
+}
+.titlesRow>li {
+  background-color: rgb(177, 240, 249);
+}
+.ul_student {
+  margin-bottom: 300px;
+}
+.titlesRow>li:hover{
+  transition: all .1s ease-in-out;
+  background-color: rgb(89, 213, 232);
+  cursor: pointer;
+}
+.titlesRow, .ul_student {
+  display: flex;
+  flex-direction: row;
+
+}
+.SpreadSheet {
+  margin: 5%;
+}
+.mainForm{
+  margin: 5%;
+  border: 1px black dotted;
+  padding: 1%;
+}
+.mainForm>span{
+  opacity: 0.8;
+  font-style: oblique;
+  border-bottom: 1px black solid;
+}
+.mainForm>input:not(:last-child){
+  margin-right: 2%;
+}
+.mainForm>input{
+  padding: 5px;
+  min-width: 75%;
+}
+.titlesRow>li, .ul_student>li {
+
+  width: 25%;
+  border: 1px black solid;
+  padding: 4px 10px;
+
+}
+.ul_student>li {
+  background-color: white;
+}
+.mainButton {
+  background-color: rgb(177, 240, 249);
+  color: black;
+  cursor: pointer;
+  padding: 12px;
+  font-style: oblique;
+}
+.mainButton:hover{
+  transition: all .3s ease-in-out;
+  background-color: rgb(89, 213, 232);
+}
+.mainButton:active,  .titlesRow>li:active{
+  transition: all .1s ease-in-out;
+  background-color: rgb(14, 132, 172);
+  color: white;
+}
+.divFilter {
+  border: 1px black solid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  min-width: 1170px;
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  background-color: rgba(255,255,255)
+}
+.divFilter>input {
+  background-color: rgb(239, 251, 253);
+  margin: 0 auto;
+  min-width: 25%;
+  padding: 2px 0;
+  padding-left: 10px;
+  color: black;
+  font-size: larger;
+  font-weight: 500;
+}
+.removeName, .removeFaculty, .removeStart, .removeEnd {
+  display: none;
+}

@@ -1,0 +1,23 @@
+.card {
+  background: #FFFFFF;
+  border-radius: 7px;
+  position: relative;
+}
+@media all and (min-width: 1024px) {
+  .card{
+    padding: 40px 0;
+    display: flex;
+    padding-left: 40px;
+    margin-top: 1px;
+  }
+  .card:not(:first-child) {
+    margin-top: 1px;
+  }
+  .card:hover, .card:focus-within {
+    cursor: pointer;
+    outline: 1px solid #D9D9D9;
+  }
+  .card h2 :hover {
+    color: var(--orange);
+  }
+}

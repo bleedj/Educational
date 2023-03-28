@@ -1,0 +1,7 @@
+const date = require('./date')
+date().getMonth().toString().length === 2 ? month = date().getMonth() : month = '0' + date().getMonth()
+date().getDate().toString().length === 2 ? day = date().getDate() : day = '0' + date().getDate()
+date().getHours().toString().length === 2 ? hour = date().getHours() : hour = '0' + date().getHours()
+date().getMinutes().toString().length === 2 ? minune = date().getMinutes() : minune = '0' + date().getMinutes()
+date().getSeconds().toString().length === 2 ? second = date().getSeconds() : second = '0' + date().getSeconds()
+console.log(`Today is ${date().getFullYear() + '-' + month + '-' + day}, the current time is ${hour + ':' + minune + ':' + second}.`)

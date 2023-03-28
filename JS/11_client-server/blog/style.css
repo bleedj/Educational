@@ -1,0 +1,144 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+body {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  background: url('img/backg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  margin-top: .5%;
+
+}
+.pag *{
+  border: 1px black solid;
+
+}
+.pag__button_num {
+  min-width: 4.5%;
+  flex-grow: 2;
+  background-color: rgb(241, 241, 241);
+  cursor: pointer;
+}
+.pag__button_num_2 {
+  min-width: 4.5%;
+  flex-grow: 2;
+  background-color: rgb(219, 219, 219);
+  cursor: pointer;
+}
+.pag__button {
+  min-width: 5.5%;
+  flex-grow: 2;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+
+}
+.pag__ul {
+  display: flex;
+  min-width: 100%;
+}
+.bc {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  -webkit-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+  box-shadow: 0px 5px 5px -5px rgba(34, 60, 80, 0.6);
+
+}
+.bc>div {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: rgba(0, 0, 0, 0.096);
+}
+.article {
+  margin-top: .5%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.article__title {
+  background-color: rgba(1, 1, 17, 0.074);
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 28px;
+}
+.article__body {
+  padding: 20px;
+
+  font-size: large;
+  font-family:'Times New Roman', Times, serif;
+  color: rgb(3, 13, 25);
+  max-width: 75%;
+}
+.comment__title{
+  color: rgba(0, 0, 0, 0.544);
+  font-style: italic ;
+  display: block;
+  max-width: fit-content;
+  margin-bottom: 8px;
+  border-bottom: 1px rgba(0, 0, 0, 0.387) solid;
+
+}
+.comment{
+  padding: 20px;
+  /* max-width: 75%; */
+
+}
+.comment__name {
+  font-weight: 800;
+  padding: 3px 3px 1px 0px;
+  margin-bottom: 5px;
+
+  max-width: fit-content;
+}
+.comment__descr {
+  margin-bottom: 8px;
+}
+.comment__title_oops {
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.759);
+}
+a {
+  text-decoration:none;
+  color: black;
+  font-weight: 500;
+}
