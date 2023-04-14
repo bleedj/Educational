@@ -1,3 +1,1 @@
-# pets
-pet prodjects
-
+# educational projects
